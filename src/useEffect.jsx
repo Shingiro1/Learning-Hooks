@@ -8,7 +8,7 @@ function Timer(){
         setTimeout(()=>{  //setting a timeout to count.
             setCount((count) => count + 1); // our setter function to increment our timer.
         },1000) // the time delay of one second.
-    });
+    },[]);// the brackets make it render once.
     return(
         <h1>I have rendered {count} times!!</h1> //returning our initial and updated state.
     );
