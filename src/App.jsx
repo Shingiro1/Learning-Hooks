@@ -1,5 +1,5 @@
 //import Timer from "./useEffect";
-import Component1 from "../useContext";
+import Component1 from "./useContext";
 
 function App(){
 return (
