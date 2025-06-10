@@ -1,10 +1,14 @@
 //import Timer from "./useEffect";
-import Component1 from "./useContext";
+// import Component1 from "./useContext";
+import MyUseRef from "./useRef";
+
 
 function App(){
 return (
   //<Timer />
-  <Component1 />
+  // <Component1 />
+  <MyUseRef/>
+ 
 )
 };
   
